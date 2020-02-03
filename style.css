@@ -1,0 +1,139 @@
+@charset "UTF-8";
+body{width:100%;font-family:'Open Sans',sans-serif;margin:0;padding:0}
+.container{width:100%;max-width:1000px;margin:0 auto;padding:0;position:relative;overflow:hidden;min-height:35px}
+.container_left{width:50%;margin:0 auto;padding:0;position:relative;overflow:hidden;min-height:35px;float:left}
+.container_left .container{float:right;max-width:500px}
+.container_left p{text-transform:uppercase}
+.container_right{float:right;height:100%;margin:0 auto;overflow:hidden;padding:0;position:absolute;right:0;width:50%;background-color:#000}
+header{height:35px;padding:0;margin:0;width:100%;background-color:#000;position:fixed;top:0;z-index:100}
+header ul{margin:0;padding:0;font-size:16px;line-height:16px}
+header li{list-style:none;display:inline-block;cursor:pointer;color:#fff;text-transform:uppercase;height:16px;padding:0;margin:8px 35px 0 0;transition:.1s ease}
+header li:hover{color:#fe7100}
+header li img{margin:0 0 -5px;position:relative}
+.nav_logo{display:none;margin:6px 35px 0 0}
+.title{color:#fff;font-size:40px;line-height:42px;margin:0 auto;padding:1px 0 52px;text-align:center}
+#main_location_title .title,#main_order_onlin_title .title{padding:55px 0 52px;text-align:center}
+.clear{clear:both}
+a{outline:0;color:#fff;text-decoration:none}
+p{color:#fff;font-size:24px;line-height:26px;text-align:center;font-weight:300;padding:0 12px}
+h1{font-size:40px;color:#fff;text-align:center;line-height:42px;margin:0 auto 20px;padding:12px;text-transform:uppercase}
+h2{font-size:28px;color:#fe7100;text-align:center;line-height:30px;margin:0 auto 20px;padding:0 12px 12px;text-transform:uppercase}
+hr{width:100%;height:2px;background-color:#7ab706;border:0;padding:0;margin:0 0 20px;position:relative}
+.hr_margin{margin:100px 0 20px}
+#banner{height:984px;width:100%;position:relative;margin:0;padding:0;background-image:url(images/photo_01.jpg);background-position:top center;background-size:cover;transition:.1s ease;margin:35px 0 0}
+#banner_logo img{width:100%;max-width:1000px;margin:230px auto 0;padding:0}
+#banner_small{height:100%;padding:140px 0;min-height:20px;width:100%;position:relative;background-image:url(images/photo_01.jpg);background-position:center;background-size:cover;transition:.1s ease;margin:35px 0 0}
+#banner_small img{margin:0 auto}
+#about #banner_small{background-image:url(images/photo_01.jpg)}
+#about #main_photo_small{background-image:url(images/photo_04.jpg)}
+#locations #banner_small{background-image:url(images/photo_04.jpg)}
+#locations #main_photo_small{background-image:url(images/photo_01.jpg)}
+#locations .container_right{background-image:url(images/location.jpg);background-position:center}
+#main{height:100%;width:100%;position:relative;margin:0;padding:0;background-image:url(images/background.jpg);background-position:top center}
+#main .container,#main_about .container{padding:80px 0}
+.main_title{width:100%;font-size:32px;text-align:center;padding:0}
+#main_photo_01{background-image:url(images/photo_04.jpg);background-position:center center;background-size:cover;height:226px;margin:0;padding:100px 0;position:relative;width:100%}
+#main_photo_small{height:100%;padding:140px 0;min-height:20px;width:100%;position:relative;background-position:center;background-size:cover;transition:.1s ease;margin:0;background-image:url(images/photo_02.jpg)}
+#main_location{height:800px;width:100%;position:relative;margin:0;padding:0;background-image:url(images/location.jpg);background-position:center;background-size:cover}
+#main_location_title{min-height:160px;width:100%;position:relative;margin:0;padding:0;background-image:url(images/background.jpg);background-position:top center}
+#main_order_online{background-image:url(images/photo_03.jpg);background-position:center center;background-size:cover;height:137px;margin:0;padding:60px 0 160px;position:relative;width:100%}
+#main_order_online_title{min-height:160px;width:100%;position:relative;margin:0;padding:0;background-image:url(images/background.jpg);background-position:top center}
+footer{height:100%;width:100%;position:relative;margin:0;padding:0;background-image:url(images/background.jpg);background-position:top center}
+footer .footer_column{width:25%;display:block;color:#fff;margin:0;float:left;text-align:right;font-size:14px}
+footer .footer_column ul:nth-child(1){text-align:left}
+footer .footer_column b{text-transform:uppercase}
+footer ul{margin:0;padding:0;text-align:center}
+footer li{list-style:none;text-transform:uppercase;font-weight:800}
+footer #social_nav{position:relative;float:left;width:25%}
+footer #social_nav div{margin:0 2px 0 0}
+#footer_signup{float:right;width:75%;height:35px;background-color:#fff}
+#footer_bottom{padding:40px 0}
+#back_to_top{height:96px;width:91px;background-image:url(images/back_to_top.png);margin:0 auto;top:-43px;position:relative;cursor:pointer;left:8px}
+.about_break{margin:110px 0 20px}
+#social_nav{position:absolute;top:7px;right:0}
+#social_nav div{height:20px;width:20px;background-position:bottom center;display:inline-block;margin:0 0 0 2px;cursor:pointer}
+#social_nav div:hover{background-position:top center}
+#yelp{background-image:url(images/yelp.png)}
+#facebook{background-image:url(images/facebook.png)}
+#twitter{background-image:url(images/twitter.png)}
+#instagram{background-image:url(images/instagram.png)}
+.signup{float:left;width:65%;padding:0;margin:0;border:0;height:35px;text-indent:10px}
+.submit{float:right;width:35%;padding:0;margin:0;border:0;height:35px;background-color:#fbbc00;color:#fff;text-transform:uppercase}
+.nav_bar{background-color:#fff;display:block;height:5px;line-height:0;margin:0 0 4px 10px;padding:0;position:relative;top:6px;width:31px}
+#nav_button{display:none;height:35px;width:52px;cursor:pointer}
+#nav_mini{display:none;background-color:#000;z-index:100;position:relative}
+#nav_mini ul{padding:12px 0}
+#nav_mini li{display:block;margin:0;padding:4px 0;position:relative;text-align:center;z-index:100}
+#copyright{padding:0 0 20px;width:100%;max-width:300px;margin:0 auto}
+#copyright img{margin:0;position:relative;float:right}
+#copyright p{font-size:14px;margin:0;padding:0;width:50%;display:inline}
+.button{background-color:#fe7100;color:#fff;font-size:20px;height:35px;line-height:34px;margin:12px auto;text-align:center;text-transform:uppercase;width:250px;font-weight:600;cursor:pointer;border:4px solid #fff}
+.button:nth-child(1){background-color:#7ab706}
+.button:hover{background-color:#000}
+.buttons{margin:80px auto}
+.order_button{background-color:#fe7100!important}
+.ad{width:100%}
+.contact_textarea{font-family:'Open Sans',sans-serif;font-size:12px;background-color:#fff;border:0 none;color:#000;font-style:italic;height:240px;margin:0 auto;resize:none;width:100%;padding:12px;box-sizing:border-box}
+.contact_input{background-color:#fff;border:0 none;color:#000;display:inline-block;font-style:italic;height:35px;margin:0 35px 0 0;text-indent:12px;width:305px}
+.contact_input:nth-child(3){margin:0 0 35px}
+.contact_submit{background-color:#000;border:0 none;color:#fff;height:35px;margin:0 auto 35px;width:100%;border:0;padding:0;cursor:pointer}
+.contact_submit:hover{background-color:#fe7100}
+.contact_location{color:#fff;display:inline-block;position:relative;width:33%;margin:10px auto 35px;text-align:center}
+#contact_first_name,#contact_last_name,#contact_email{float:left}
+#contact_email .contact_input{margin:0}
+#contact_form label{color:#f10000}
+#about .button,#main_order_online .button{display:inline-block;margin:12px 17px}
+#about .buttons,#main_order_online .buttons{margin:80px auto;max-width:589px;width:100%}
+#nav_mini li#close_nav{font-weight:700;padding:12px 0}
+#contact_first_name,#contact_last_name{float:left;margin:0 42px 42px 0;padding:0;width:305px}
+#contact_email{float:left;margin:0 0 42px;padding:0;width:305px}
+#contact_message{margin:0 auto 42px}
+label.error{color:#f21010;display:inline-block;padding:10px 0 0;position:relative;text-align:center!important;width:305px}
+#contact_message label.error{color:#f21010;display:inline-block;padding:10px 0 0;position:relative;text-align:center!important;width:100%}
+#social_nav > #yelp{cursor:auto}
+@media (max-width: 1000px) {
+.container > form{margin:0 auto;width:600px}
+.contact_input{width:171px}
+#navigation #social_nav{left:auto!important;position:absolute;right:12px;top:7px}
+footer #social_nav{left:12px;right:auto}
+footer ul{margin:0 0 0 12px;padding:0;text-align:center}
+header li{display:none}
+#nav_button{display:block}
+.nav_logo{display:block!important;margin:1px 0 0 53px !important;position:absolute;width:87px}
+header li img{margin:5px 0 -5px}
+#contact_first_name,#contact_last_name,#contact_email,label.error{width:171px}
+}
+@media (max-width: 900px) {
+header li{margin:8px 35px 0 0}
+#banner{height:100%}
+#banner_logo img{margin:0 auto}
+.title{width:95%}
+.contact_location{width:32%;font-size:14px}
+}
+@media (max-width: 800px) {
+header li{margin:8px 15px 0 0}
+}
+@media (max-width: 700px) {
+#about .button,#main_order_online .button{display:block;margin:12px auto}
+#about .buttons,#main_order_online .buttons{margin:80px auto;max-width:none;width:100%}
+footer .footer_column{width:100%;margin:0 auto 20px;font-size:14px;text-align:center}
+footer li{width:100%;margin:0 auto;font-size:14px;text-align:center}
+#footer_bottom{padding:18px 0 40px}
+#footer_signup{width:95%;padding:0;margin:0 auto;float:none}
+footer #social_nav{float:none;right:auto;margin:0 auto 40px;width:101px}
+h1,.title{font-size:24px;line-height:26px}
+h2{font-size:22px;line-height:24px}
+p{font-size:18px;line-height:20px}
+.title hr{margin:11px 20px}
+.container_left{width:100%}
+.container_left .container{max-width:auto;float:none}
+.container_right{width:100%;position:relative;min-height:400px}
+.container > form{margin:0 auto;width:80%}
+.contact_input{width:100%}
+.contact_location{width:100%}
+#main .container,#main_about .container{padding:20px 0}
+#contact_first_name,#contact_last_name,#contact_email,label.error{width:100%}
+}
+.fb_offer_page #banner_small{padding:70px 0}
+.fb_offer_page .fb_ad{max-width:510px;margin:0 5%;width:90%;margin:0 auto;display:inherit;box-shadow:0 9px 10px rgba(0,0,0,0.37)}
+.fb_offer_page #main .ad{width:90%;padding:0 5%}
